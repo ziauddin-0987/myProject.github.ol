@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  position: relative;
+  /* padding: fixed; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 2px 4px 6px gainsboro;
+  padding-left: 15px;
+}
+
+/* header nav div i { */
+/* } */
+
+#search {
+  border-radius: 2rem;
+  width: 20%;
+  height: 40px;
+  padding-left: 10px;
+  border: none;
+}
+
+.fa-house,
+.fa-circle-play,
+.fa-box,
+.fa-users-line,
+.fa-gamepad {
+  font-size: 27px;
+  width: 100px;
+  height: 3rem;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.left-icon {
+  position: absolute;
+  right: 100px;
+  display: flex;
+  gap: 20px;
+}
+
+.fa-border-none,
+.fa-comment-dots,
+.fa-bell {
+  font-size: 27px;
+}
+/* log right side */
+.id-img {
+  padding-top: 20px;
+  padding-left: 15px;
+  width: 50px;
+  /* height: 0px; */
+  border-radius: 100px;
+}
+.sidebar {
+  border: 1px solid black;
+  width: 30%;
+  height: 100vh;
+  background-color: #ccd0d5;
+  position: fixed;
+}
